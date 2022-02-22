@@ -1,0 +1,121 @@
+header{
+    text-align: center;
+}
+nav{
+    background-color: rgb(103, 219, 103);
+}
+.tieudedau{
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+    font-style: italic;
+    -webkit-animation: my 1000ms infinite;
+}
+@-webkit-keyframes my{
+    0% {color: pink}
+    30% {color:yellow}
+    50% {color: blueviolet}
+    70% {color: tomato}
+    100% {color:mediumvioletred}
+}
+.slider{
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 50px;
+    border: 2px solid darkgray;
+}
+.slider__imgs{
+    display: flex;
+}
+.slider__imgs img{
+    width: 100%;
+}
+.slider__imgs input{
+    display: none;
+}
+.lableslider{
+    display: flex;
+    justify-content: center;
+}
+.lableslider label{
+    width: 20px;
+    height: 20px;
+    border: 3px solid gray;
+    border-radius: 55%;
+    margin: 10px;
+}
+.lableslider label:hover{
+    background-color: pink;
+}
+#img1:checked ~.imgslider1{
+    margin-left: 0;
+}
+#img2:checked ~.imgslider2{
+    margin-left: -100%;
+}
+#img3:checked ~.imgslider3{
+    margin-left: -200%;
+}
+#img4:checked ~.imgslider3{
+    margin-left: -300%;
+}
+
+article{
+    float: left;
+    width: 55%;
+}
+aside{
+    width: 45%;
+    float: right;
+}
+h3{
+    font-size: 25px;
+}
+.nd1{
+    font-size: 20px;
+    color: gray;
+}
+.gia{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+.size{
+    font-size: 30px;
+}
+.size>select{
+    width: 80px;
+    height: 40px;
+}
+.soluong{
+    font-size: 25px;
+    font-weight: bold;
+}
+.soluong>input{
+    width: 50px;
+    height: 40px;
+}
+.buy>a>img{
+    width: 100px;
+    
+}
+.buy>a>img:hover{
+    width: 200px;
+    border: 3px ridge greenyellow;
+}
+.maudo{
+    color: red;
+}
+.me2>a{
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+    padding: 2px;
+    margin: 2px;
+}
+.me2>a:hover{
+    color: blue;
+    
+}
